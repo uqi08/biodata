@@ -1,0 +1,76 @@
+.profil{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.469);
+}
+.kotak-kiri{
+    width: 300px;
+    height: 100%;
+}
+.kotak-kiri img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.kotak-kanan{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.kotak-kanan p{
+    margin-left: 10px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight:600;
+}
+.big-box{
+    width:100%;
+    height: 600px;
+    margin-bottom: 40px;
+}
+.main-box{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.main-box img{
+    width: 100%;
+    height: 52%;
+    object-fit: cover;
+
+}
+.main-box img:first-child{
+width: 50px;
+height: 50px;
+position: absolute;
+right: 10px;
+top: 10px;
+}
+.main-box .bio{
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.279);
+}
+.bio h1{
+    font-family: "Poppins";
+    margin: 10px;
+}
+.bio p{
+    font-family: "Poppins";
+    margin:0 10px ;
+}
