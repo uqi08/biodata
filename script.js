@@ -11,9 +11,8 @@ async function load() {
     <div class="kotak-kanan">
        <p>${element.nama}</p>
        <p>${element.no}</p>
-       <p>Jombang, 3 Okt 2005</p>
-       <p>Jombang, 3 Okt 2005</p>
-       <p>Jombang, 3 Okt 2005</p>
+       <p>${element.alamat}</p>
+       <p>${element.ttl}</p>
     </div>
   </div>`
     }); 
